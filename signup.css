@@ -1,0 +1,82 @@
+body {
+  margin: 0%;
+  padding: 0;
+}
+body img {
+  width: 30rem;
+  align-content: center;
+}
+body .slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formWrapper {
+  background-color: white;
+  border: 0.1px solid silver;
+  padding: 10px;
+  text-align: center;
+  color: rgb(135, 134, 134);
+}
+
+.form-div {
+  margin-bottom: 1em;
+  padding: 3px;
+}
+
+.form-header {
+  font-size: medium;
+  font-weight: lighter;
+  padding: 10px;
+  letter-spacing: 0.4px;
+  color: rgb(101, 101, 101);
+}
+
+form {
+  margin: 0 auto;
+  margin-top: 3em;
+  max-width: 25em;
+  padding: 15px;
+}
+form button {
+  margin-top: 1em;
+  padding: 0.7em 0.5em;
+  border: 0.1px solid rgb(90, 205, 149);
+  color: azure;
+  background-color: rgb(18, 183, 128);
+  border-radius: 2px;
+  min-width: 6em;
+  margin-right: 10px;
+}
+form .btn-div {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card {
+  padding: 10px;
+  display: none;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  font-size: small;
+  gap: 0.5em;
+  margin-bottom: 0.9em;
+  border: 1px solid rgb(221, 221, 221);
+  font-weight: 300;
+  color: rgb(79, 79, 79);
+  padding: 1.1em;
+  letter-spacing: 0.7px;
+  border-radius: 3px;
+}
+
+.active {
+  display: block;
+}/*# sourceMappingURL=signup.css.map */

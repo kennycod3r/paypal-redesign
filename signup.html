@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+
+
+    <section>
+
+      <form id="form" class="formWrapper" style="border: 1px solid red;">
+          <div class="form-div" style="border: 1px solid red;">
+            <h1 class="form-header">CREATE YOUR ACCOUNT</h1>
+            <p id="stepText">This is step 1</p>
+          </div>
+
+          <div class="card active" id="form-card-one">
+            <div class="form-group">
+              <input type="textbox" id="email" placeholder="Email" />
+            </div>
+
+            <div class="form-group">
+              <input type="textbox" id="password" placeholder="Password" />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="textbox"
+                id="confirmpassword"
+                placeholder="Confirm Password"
+              />
+            </div>
+
+            <div>
+              <button type="button" nextBtn>Next</button>
+            </div>
+          </div>
+
+
+          <div class="card" id="form-card-two">
+            <div class="form-group">
+              <input type="textbox" id="instagram" placeholder="Instagram" />
+            </div>
+
+            <div class="form-group">
+              <input type="textbox" id="twitter" placeholder="Twitter" />
+            </div>
+
+            <div class="form-group">
+              <input type="textbox" id="discord" placeholder="Discord" />
+            </div>
+
+            <div class="btn-div">
+              <button type="button" nextBtn>Next</button>
+              <button type="button" previousBtn>previous</button>
+            </div>
+          </div>
+          <div class="card" id="form-card-three">
+            <div class="form-group">
+              <input type="textbox" id="city" placeholder="city" />
+            </div>
+
+            <div class="form-group">
+              <input type="textbox" id="state" placeholder="State" />
+            </div>
+
+            <div class="form-group">
+              <input type="textbox" id="country" placeholder="Country" />
+            </div>
+
+            <div class="btn-div">
+              <button type="button" nextBtn>Next</button>
+              <button type="button" previousBtn>previous</button>
+            </div>
+          
+        </div>
+      </form>
+    </section>
+    <script src="signup.js"></script>
+  </body>
+</html>
